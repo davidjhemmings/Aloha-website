@@ -283,255 +283,266 @@
 
                                     /*==========FONTS============*/
     
-
                                     @font-face {
-                                        font-family: 'Raleway Light Italic';
-                                        src: url('/Fonts/Raleway-LightItalic.woff2') format('woff2'),
-                                            url('Fonts/Raleway-LightItalic.woff') format('woff');
-                                        font-weight: 300;
-                                        font-style: italic;
-                                      }
-                                      
-                                      @font-face {
-                                        font-family: 'Raleway Medium Italic';
-                                        src: url('/Fonts/Raleway-MediumItalic.woff2') format('woff2'),
-                                            url('Fonts/Raleway-MediumItalic.woff') format('woff');
-                                        font-weight: 500;
-                                        font-style: italic;
-                                      }
-                                      
-                                      @font-face {
-                                        font-family: 'Raleway Medium';
-                                        src: url('/Fonts/Raleway-Medium.woff2') format('woff2'),
-                                            url('Fonts/Raleway-Medium.woff') format('woff');
-                                        font-weight: 500;
-                                        font-style: normal;
-                                      }
-                                      
-                                      @font-face {
-                                        font-family: 'Raleway Light';
-                                        src: url('/Fonts/Raleway-Light.woff2') format('woff2'),
-                                            url('Fonts/Raleway-Light.woff') format('woff');
-                                        font-weight: 300;
-                                        font-style: normal;
-                                      }
-                                      
-                                      @font-face {
-                                        font-family: 'Playfair BI';
-                                        src: url('/Fonts/PlayfairDisplay-BoldItalic.woff2') format('woff2'),
-                                            url('Fonts/PlayfairDisplay-BoldItalic.woff') format('woff');
-                                        font-weight: bold;
-                                        font-style: italic;
-                                      }
-                                      
-                                      @font-face {
-                                        font-family: 'Playfair I';
-                                        src: url('/Fonts/PlayfairDisplay-Italic.woff2') format('woff2'),
-                                            url('Fonts/PlayfairDisplay-Italic.woff') format('woff');
-                                        font-weight: normal;
-                                        font-style: italic;
-                                      }
-                                      
-                                      @font-face {
-                                        font-family: 'Playfair Regular';
-                                        src: url('/Fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
-                                            url('Fonts/PlayfairDisplay-Regular.woff') format('woff');
-                                        font-weight: normal;
-                                        font-style: normal;
-                                      }
-                                      
-                                      @font-face {
-                                        font-family: 'Playfair B';
-                                        src: url('/Fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
-                                            url('Fonts/PlayfairDisplay-Bold.woff') format('woff');
-                                        font-weight: bold;
-                                        font-style: normal;
-                                      }
-
+                                      font-family: 'Raleway Light Italic';
+                                      src: url('/Fonts/Raleway-LightItalic.woff2') format('woff2'),
+                                          url('Fonts/Raleway-LightItalic.woff') format('woff');
+                                      font-weight: 300;
+                                      font-style: italic;
+                                    }
+                                    
+                                    @font-face {
+                                      font-family: 'Raleway Medium Italic';
+                                      src: url('/Fonts/Raleway-MediumItalic.woff2') format('woff2'),
+                                          url('Fonts/Raleway-MediumItalic.woff') format('woff');
+                                      font-weight: 500;
+                                      font-style: italic;
+                                    }
+                                    
+                                    @font-face {
+                                      font-family: 'Raleway Medium';
+                                      src: url('/Fonts/Raleway-Medium.woff2') format('woff2'),
+                                          url('Fonts/Raleway-Medium.woff') format('woff');
+                                      font-weight: 500;
+                                      font-style: normal;
+                                    }
+                                    
+                                    @font-face {
+                                      font-family: 'Raleway Light';
+                                      src: url('/Fonts/Raleway-Light.woff2') format('woff2'),
+                                          url('Fonts/Raleway-Light.woff') format('woff');
+                                      font-weight: 300;
+                                      font-style: normal;
+                                    }
+                                    
+                                    @font-face {
+                                      font-family: 'Playfair BI';
+                                      src: url('/Fonts/PlayfairDisplay-BoldItalic.woff2') format('woff2'),
+                                          url('Fonts/PlayfairDisplay-BoldItalic.woff') format('woff');
+                                      font-weight: bold;
+                                      font-style: italic;
+                                    }
+                                    
+                                    @font-face {
+                                      font-family: 'Playfair I';
+                                      src: url('/Fonts/PlayfairDisplay-Italic.woff2') format('woff2'),
+                                          url('Fonts/PlayfairDisplay-Italic.woff') format('woff');
+                                      font-weight: normal;
+                                      font-style: italic;
+                                    }
+                                    
+                                    @font-face {
+                                      font-family: 'Playfair Regular';
+                                      src: url('/Fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
+                                          url('Fonts/PlayfairDisplay-Regular.woff') format('woff');
+                                      font-weight: normal;
+                                      font-style: normal;
+                                    }
+                                    
+                                    @font-face {
+                                      font-family: 'Playfair B';
+                                      src: url('/Fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
+                                          url('Fonts/PlayfairDisplay-Bold.woff') format('woff');
+                                      font-weight: bold;
+                                      font-style: normal;
+                                    }
                                 /*END OF FONTS*/
- body{
- margin: 0;
-}
-
-
-.site-header {
-background: rgb(255, 255, 255);  
-justify-content: space-between;
-display: flex;
-margin: 0px;
-border: 50px;
-padding: 25px;
-width: 100%;
-/*height: 10%; */
-
-
-}                       
-                                                /*Navigation Bar Header*/
-.cart{
-    position: relative;
-    left: 100px;
-
-}
-
-.logo{
-    position: relative;
-    right: 60px;
-    
-}
-
-ul {
-list-style-type: disc; /*removes bullets*/
-                                
-}
-              
-li {
-     display: inline; /*horizontal nav bar*/
+                                body{
+                                  margin: 0;
+                                 }
+                                 
+                                 
+                                 .site-header {
+                                 background: rgb(255, 255, 255);  
+                                 justify-content: space-between;
+                                 display: flex;
+                                 margin: 0px;
+                                 border: 50px;
+                                 padding: 25px;
+                                 width: 100%;
+                                 /*height: 10%; */
+                                 
+                                 
+                                 }                       
+                                                                                 /*Navigation Bar Header*/
+                                 .cart{
+                                     position: relative;
+                                     left: 100px;
+                                 
+                                 }
+                                 
+                                 .logo{
+                                     position: relative;
+                                     right: 60px;
+                                     
+                                 }
+                                 
+                                 ul {
+                                 list-style-type: disc; /*removes bullets*/
+                                                                 
+                                 }
+                                               
+                                 li {
+                                      display: inline; /*horizontal nav bar*/
+                                                                    
+                                                              
+                                   /*
+                                  text-align:center;*/
+                                  }
+                                 
+                                  a{
+                                     text-decoration: none; /*removes underline*/
+                                     color:#e2574c;
+                                     font-size: 16px;
+                                    /* font-family: 'Playfair Regular';*/
+                                    
+                                     
+                                     
+                                 }
+                                 .navigation{
+                                     word-spacing: 30px;
+                                     font-family: 'Raleway Medium';
                                    
-                             
-  /*
- text-align:center;*/
- }
+                                 }
+                                                                 
+                                 
+                                 
+                                 .banner_text {
+                                   
+                                     text-align: center;
+                                    /* position: relative;*/
+                                     position: absolute;
+                                     left: 0;
+                                     top: 40%;
+                                     width: 100%;
+                                     font-size: 12px;
+                                     color: white;
+                                     font-family: 'Raleway Medium';
+                                     line-height: 100%;
+                                     
+                                 
+                                 
+                                 }
+                                 /*
+                                  .section p{
+                                     
+                                     font-size: 300px;
+                                    
+                                 }
+                                 */
+                                 .banner{
+                                     
+                                     background:linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)), url(banner-girl.png) bottom center no-repeat, url(banner.jpg);
+                                     
+                                     width: 100%;
+                                     height: 600px;
+                                     
+                                     background-size:100%, 200px, cover;
+                                 }
+                                 
+                                 .banner p{
+                                     font-size: 60px;
+                                     font-family: 'Playfair Regular';
+                                     font-weight: lighter;
+                                 }
+                                 
+                                 
+                                 .bin{
+                                     background: url(cart-icon.svg) top right no-repeat;
+                                     background-size: 140px;
+                                     
+                                 
+                                 }
+                                 /*
+                                 .heavy {
+                                     font-style: normal;
+                                     font-weight: 700;
+                                 }
+                                 */
+                                 
+                                 
+                                 h2{
+                                     font-size: 33px;
+                                     font-family: 'Playfair I';
+                                    
+                                     
+                                 }
+                                 
+                                 .ABOUT{
+                                     text-align: center;
+                                     
+                                   
+                                 }
+                                  
+                                 span{
+                                     font-size: 45px;
+                                     
+                                 
+                                 
+                                     
+                                 }
+                                 
+                                 .Styles{
+                                     font-family: 'Playfair B';
+                                     font-size: 41px;
+                                      
+                                 }
+                                 
+                                 p{
+                                      line-height: 40px;
+                                      font-size: 18px;
+                                      font-family: 'Raleway Light';
+                                 }
+                                  .product-catagories{
+                                    
+                                         display: flex;
+                                         text-align: center;
+                                         flex-wrap: wrap; 
+                                         position: relative;
+                                         text-align: center;
+                                         color: white;
+                                         }
+                                 
+                                 
+                                .mens{
+                                      position: absolute;
+                                      left: 0px;
+                                  }
+                                  .trends{
+                                      position: absolute;
+                                 
+                                  }
+                                 
+                                  .glasses{
+                                      position: absolute;
+                                      right: 0px;
+                                  }
+                                      
 
- a{
-    text-decoration: none; /*removes underline*/
-    color:#e2574c;
-    font-size: 16px;
-   /* font-family: 'Playfair Regular';*/
-   
-    
-    
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #EEE;
 }
-.navigation{
-    word-spacing: 30px;
-    font-family: 'Raleway Medium';
-  
-}
-                                
 
-
-.banner_text {
-  
-    text-align: center;
-   /* position: relative;*/
-    position: absolute;
-    left: 0;
-    top: 40%;
-    width: 100%;
-    font-size: 12px;
-    color: white;
-    font-family: 'Raleway Medium';
-    line-height: 100%;
-    
-
-
-}
-/*
- .section p{
-
-    
-    font-size: 300px;
-   
-
+.carousel-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
 }
 
-*/
-.banner{
-    
-    background:linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)), url(banner-girl.png) bottom center no-repeat, url(banner.jpg);
-    
-    width: 100%;
-    height: 600px;
-    
-    background-size:100%, 200px, cover;
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
 }
-
-.banner p{
-    font-size: 60px;
-    font-family: 'Playfair Regular';
-    font-weight: lighter;
-}
-
-
-.bin{
-    background: url(cart-icon.svg) top right no-repeat;
-    background-size: 140px;
-    
-
-}
-/*
-.heavy {
-    font-style: normal;
-    font-weight: 700;
-}
-*/
-
-
-h2{
-    font-size: 33px;
-    font-family: 'Playfair I';
-   
-    
-}
-
-.ABOUT{
-    text-align: center;
-    
-  
-}
- 
-span{
-    font-size: 45px;
-    
-
-
-    
-}
-
-.Styles{
-    font-family: 'Playfair B';
-    font-size: 41px;
-     
-}
-
-p{
-     line-height: 40px;
-     font-size: 18px;
-     font-family: 'Raleway Light';
-}
- .product-catagories{
-   
-        display: flex;
-        text-align: center;
-        flex-wrap: wrap; 
-        position: relative;
-        text-align: center;
-        color: white;
-        }
-
-
-        
- 
-
- 
-
-
- .mens{
-     position: absolute;
-     left: 0px;
- }
- .trends{
-     position: absolute;
-
- }
-
- .glasses{
-     position: absolute;
-     right: 0px;
- }
-  
-        
-
-
 
 
 
