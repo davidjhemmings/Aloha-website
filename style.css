@@ -346,11 +346,16 @@
                                       font-weight: bold;
                                       font-style: normal;
                                     }
+
+
+
+
                                 /*END OF FONTS*/
                                 body{
                                   margin: 0;
                                  }
                                  
+
                                  
                                  .site-header {
                                  background: rgb(255, 255, 255);  
@@ -358,22 +363,26 @@
                                  display: flex;
                                  margin: 0px;
                                  border: 50px;
-                                 padding: 25px;
+                                 padding: 0px;
                                  width: 100%;
-                                 /*height: 10%; */
+                                 
+                                
+                                 
+                                 
                                  
                                  
                                  }                       
                                                                                  /*Navigation Bar Header*/
                                  .cart{
                                      position: relative;
-                                     left: 100px;
+                                     right:100px;
+                                     background-size: 30px;
                                  
                                  }
                                  
                                  .logo{
                                      position: relative;
-                                     right: 60px;
+                                     left: 100px;
                                      
                                  }
                                  
@@ -394,48 +403,54 @@
                                      text-decoration: none; /*removes underline*/
                                      color:#e2574c;
                                      font-size: 16px;
+                                     
                                     /* font-family: 'Playfair Regular';*/
                                     
                                      
                                      
                                  }
                                  .navigation{
-                                     word-spacing: 30px;
+                                     word-spacing: 60px;
                                      font-family: 'Raleway Medium';
+                                      margin-top: 100px;
+                                      border-width:1px 0;
+                                      list-style:none;
+                                      margin:0;
+                                      padding:0;
+                                     
+
+                                  }
+                                  .nav li{
+                                      display:inline;
+                                  }
+                                  .nav a{
+                                      display:inline-block;
+                                      padding:10px;
+                                  }
+                                     
                                    
-                                 }
+                                 
                                                                  
                                  
-                                 
-                                 .banner_text {
-                                   
-                                     text-align: center;
-                                    /* position: relative;*/
-                                     position: absolute;
-                                     left: 0;
-                                     top: 40%;
-                                     width: 100%;
-                                     font-size: 12px;
-                                     color: white;
-                                     font-family: 'Raleway Medium';
-                                     line-height: 100%;
-                                     
-                                 
-                                 
-                                 }
-                                 /*
-                                  .section p{
-                                     
-                                     font-size: 300px;
-                                    
-                                 }
-                                 */
+.banner_text {
+text-align: center;
+position: absolute;
+left: 0;
+top: 50%;
+width: 100%;
+font-size: 12px;
+color: white;
+font-family: 'Raleway Medium';
+line-height: 100%;
+}
+                               
                                  .banner{
                                      
                                      background:linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)), url(banner-girl.png) bottom center no-repeat, url(banner.jpg);
-                                     
+                                    
                                      width: 100%;
-                                     height: 600px;
+                                     height: 550px;
+                                     
                                      
                                      background-size:100%, 200px, cover;
                                  }
@@ -444,12 +459,13 @@
                                      font-size: 60px;
                                      font-family: 'Playfair Regular';
                                      font-weight: lighter;
+                                     margin-top: 50px;
                                  }
                                  
                                  
                                  .bin{
                                      background: url(cart-icon.svg) top right no-repeat;
-                                     background-size: 140px;
+                                     
                                      
                                  
                                  }
@@ -493,15 +509,34 @@
                                       font-size: 18px;
                                       font-family: 'Raleway Light';
                                  }
-                                  .product-catagories{
-                                    
-                                         display: flex;
-                                         text-align: center;
-                                         flex-wrap: wrap; 
-                                         position: relative;
-                                         text-align: center;
-                                         color: white;
-                                         }
+                                  .product-catagories
+                                  
+                                  {
+                                    display: flex;
+                                    height:100%;
+                                    flex-wrap: wrap;
+                                    align-content: flex-start;
+                                  }
+                                  
+                                  .flex-container>div{
+                                      max-width: 400%;
+                                      margin: auto;
+
+                                      
+
+                                  
+                              
+                                  }
+
+                                  img{
+
+                                    width: 45%;
+                                    margin:1em;
+                                    padding: 1em;
+                                  
+
+                                  }
+                            
                                  
                                  
                                 .mens{
